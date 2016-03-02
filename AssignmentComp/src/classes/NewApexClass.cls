@@ -1,0 +1,11 @@
+public with sharing class NewApexClass {
+    public Class CreateAccount
+{
+public Account createAccount(String name)  
+{
+Account acc = new Account();
+acc.Name = name;
+return acc;
+}
+}
+}
